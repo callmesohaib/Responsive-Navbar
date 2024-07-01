@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+div ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 0px 20px;
+}
