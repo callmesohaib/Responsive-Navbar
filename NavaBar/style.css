@@ -23,17 +23,27 @@ ul li {
   list-style: none;
   padding: 0px 20px;
 }
-
+.bx {
+  display: none !important;
+}
 
 @media (max-width: 768px) {
-    .container{
-        display: block;
+  .container {
+    display: block;
+    width: 100%;
+  }
+  div ul {
+      margin-top: 1rem;
 
-    }
-   div ul {
-display: block;
-    }
-    div ul li{
-        padding: 4px 0px;
-    }
+      display: none;
+  }
+  div ul li {
+    padding: 4px 0px;
+  }
+  .bx {
+    display: block !important;
+    position: absolute;
+    left: 85%;
+    top: 3%;
+  }
 }
