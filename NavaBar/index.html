@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Navbar</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -14,7 +18,7 @@
   <body>
     <nav>
       <ul class="sidebar">
-        <li>Brand</li>
+        <li onclick="hide()"><i class="bx bx-x"></i></li>
         <li>Home</li>
         <li>Blog</li>
         <li>Product</li>
@@ -26,7 +30,9 @@
         <li>Blog</li>
         <li>Product</li>
         <li>Contact</li>
+        <li onclick="show()"><i class="bx bx-menu"></i></li>
       </ul>
     </nav>
+    <script src="script.js"></script>
   </body>
 </html>
