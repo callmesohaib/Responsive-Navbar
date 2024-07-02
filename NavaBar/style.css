@@ -58,5 +58,15 @@ nav ul :first-child {
   width: 100%;
 }
 
+.bx-menu {
+  display: none !important;
+}
 
-
+@media (max-width: 768px) {
+  .bx-menu {
+    display: block !important;
+  }
+  .hide-sidebar {
+    display: none;
+  }
+}
